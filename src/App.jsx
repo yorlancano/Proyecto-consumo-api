@@ -21,21 +21,16 @@ function App() {
           <div className="cajas">
             
             {
-              imagenes.map(imagenes =>{
+              imagenes.map((imagenes) =>{
                 return(
                   <div className="subcontenedor2">
-                    <h2>{imagenes.name}</h2>
                     <img src={imagenes.image} alt={imagenes.name} />
                   </div>
                 )
               })
               
-            }
-            
-              
-              
+            }              
           </div>
-
     </>
   )
 }
